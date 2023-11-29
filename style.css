@@ -204,3 +204,9 @@ body {
     color: #937CE6;
 }
 
+.answer {
+    text-align: end;
+    font-size: 36px;
+    color: white;
+    padding: 5px;
+}

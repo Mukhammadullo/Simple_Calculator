@@ -1,6 +1,12 @@
 let dialogCalculator = document.querySelector(".dialogCalculator")
 let card_inner_answer_input = document.querySelector(".card_inner_answer_input")
+let answer = document.querySelector(".answer")
 // btns_functional
+let btnDel = document.querySelector(".btnDel")
+btnDel.onclick = () => {
+    card_inner_answer_input.value.length = card_inner_answer_input.value.length - 1
+}
+
 let btn_c = document.querySelector(".btn_c")
 // btn_c
 btn_c.onclick = () => {
@@ -43,7 +49,7 @@ btn_dot.onclick = () => [
 ]
 let btn_equal = document.querySelector(".btn_equal")
 btn_equal.onclick = () => {
-    card_inner_answer_input.value = eval(card_inner_answer_input.value)
+    answer.innerHTML = eval(card_inner_answer_input.value)
 }
 // btns_numbers
 let zero = document.querySelector(".zero")
