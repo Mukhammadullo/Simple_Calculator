@@ -204,9 +204,10 @@ body {
     color: #937CE6;
 }
 
-.answer {
+.answer{
     text-align: end;
-    font-size: 36px;
-    color: white;
+    font-size: 46px;
+    color: #937CE6;
     padding: 5px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 }
